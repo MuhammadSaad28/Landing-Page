@@ -814,4 +814,7 @@
   .hero,.brands,.live-demos,.key-features,.count,.working,.corousell,.results,.poll,.footer{
     width: 107vw !important;
   }
+  .poll .heading h5{
+    width: 107vw !important;
+  }
 }
