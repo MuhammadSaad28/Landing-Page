@@ -816,5 +816,6 @@
   }
   .poll .heading h5{
     width: 107vw !important;
+    text-align: center;
   }
 }
