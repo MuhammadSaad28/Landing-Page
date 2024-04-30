@@ -767,6 +767,10 @@
     align-items: center;
     width: 100vw;
   }
+  .poll button{
+    width: 180px;
+    padding: 10px 30px
+  }
   .footer {
     flex-direction: column;
     justify-content: start;
@@ -803,5 +807,11 @@
   .company,
   .guides {
     width: 100vw;
+  }
+}
+
+@media screen and (max-width:400px) {
+  .hero,.brands,.live-demos,.key-features,.count,.working,.corousell,.results,.poll,.footer{
+    width: 107vw !important;
   }
 }
